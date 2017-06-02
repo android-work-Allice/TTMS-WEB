@@ -300,6 +300,7 @@ h1 sup {
 }
 
 .button_blue {
+    display: block;
     width: 150px;
     padding:  0 10px;
     margin-left: 80px;
@@ -308,10 +309,12 @@ h1 sup {
     background-color: #006698;
     border: 1px solid white;
     color: gainsboro;
+    text-align: center;
+    font-size: 18px;
     border-radius: 5px;
 }
 
-input.button_blue:hover {
+.button_blue:hover {
     background: #0081c1;
     border-bottom: 3px solid #006698;
     *border-bottom: none;
