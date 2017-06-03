@@ -74,7 +74,7 @@ input::-ms-clear {
     height: 45px;
     line-height: 45px;
     outline: none;
-    *hide-focus: expression(this.hideFocus=true);
+    /**hide-focus: expression(this.hideFocus=true);*/
 }
 
 .header .switch .switch_btn_focus {
@@ -83,7 +83,7 @@ input::-ms-clear {
     height: 45px;
     line-height: 45px;
     outline: none;
-    *hide-focus: expression(this.hideFocus=true);
+    /**hide-focus: expression(this.hideFocus=true);*/
 }
 
 .header .switch .switch_btn:hover {
